@@ -8,10 +8,10 @@
     "license": "MIT",
     "scripts": {
         "test": "echo \"See package.json => scripts for available tests.\" && exit 0",
-        "run": "quasar dev -m electron --modern",
+        "run": "quasar dev -m electron --no-sandbox --modern",
         "sync": "ts-node ./scripts/sync.ts",
         "build-win": "quasar build --mode electron -T win32",
-        "build-linux": "quasar build --mode electron -T linux",
+        "build-linux": "quasar build --mode electron --no-sandbox -T linux",
         "build-osx": "quasar build --mode electron -T mac",
         "publish": "quasar build --mode electron --publish always",
         "publish-win": "quasar build --mode electron -T win32 --publish always",

@@ -1,6 +1,6 @@
 export default class ObjectTestUtils {
 
-    public static lazyClone<T>(copy: T): T {
+    public static lazyClone<T extends object>(copy: T): T {
         const obj: any = {};
         Object.keys(copy).forEach((key: any) => {
             obj[key] = (copy as any)[key];
