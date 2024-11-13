@@ -1,4 +1,5 @@
-# r2modmanwebfishing
+# (now supported by official r2modman go to their repo now)
+https://github.com/ebkr/r2modmanPlus/releases
 this is literally just a modified version of r2modman that adds webfishing support ( i in no way take responisiblity
 for the feature or the tool r2modman i simply built off what someone already made for webfishing from source so people can simply
 launch it as an appimage or package in their linux distro. credit - https://github.com/ebkr/r2modmanPlus/pull/1524 )
